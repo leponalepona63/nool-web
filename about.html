@@ -1,32 +1,57 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About | Nool Drops</title>
+  <meta name="description" content="About Nool Drops boutique.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h2>Nool Drops</h2>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="services.html">Services</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <div class="wrap bar">
+      <a class="brand" href="index.html" aria-label="Nool Drops home">
+        <span class="art" data-art="logo"></span>
+        <span><b>Nool Drops</b><small>Stitch &middot; Aari &middot; Embroidery</small></span>
+      </a>
+      <button class="menu" aria-expanded="false" aria-label="Open menu">Menu</button>
+      <nav><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></nav>
+    </div>
   </header>
 
-  <section class="content">
-    <h1>About Nool Drops</h1>
-    <p>Nool Drops is a boutique focused on beautiful women's clothing and baby outfits.</p>
-    <p>We provide custom stitching, traditional Aari work and embroidery.</p>
-    <p>Our goal is to create elegant designs with quality and care.</p>
+  <div class="page-title"><div class="wrap"><h1>About Nool Drops</h1><p>A boutique built around thread, patience and beautiful detail.</p></div></div>
+  <section>
+    <div class="wrap split">
+      <div>
+        <h2>Our story</h2>
+        <p>Nool Drops is a boutique focused on beautiful women's clothing and baby outfits.</p>
+        <p>We provide custom stitching, traditional Aari work and embroidery.</p>
+        <p>Our goal is to create elegant designs with quality and care.</p>
+        <a class="button" href="contact.html">Talk to us</a>
+      </div>
+      <div class="panel draw"><div class="art" data-art="tools" role="img" aria-label="Sketch of tape measure and scissors"></div></div>
+    </div>
   </section>
-
-  <footer><p>Made by Jenzz | Nool Drops</p></footer>
+  <section class="alt">
+    <div class="wrap center"><h2>What we care about</h2>
+      <div class="grid">
+        <div class="service"><h3>Quality</h3><p>Clean seams, neat finishing, fabric treated with respect.</p></div>
+        <div class="service"><h3>Tradition</h3><p>Aari work and embroidery done in the classic way.</p></div>
+        <div class="service"><h3>Care</h3><p>From women's wear to baby outfits, comfort comes first.</p></div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="wrap">
+      <div><h3>Nool Drops</h3><p>Boutique for women's clothing and baby outfits. Every stitch tells a story.</p></div>
+      <div><h3>Visit &amp; call</h3><p>Open daily, 10 AM &ndash; 6 PM</p><p>Call: <a href="tel:+918610416199">8610416199</a></p><p><a href="mailto:leponalepona63@gmail.com">leponalepona63@gmail.com</a></p></div>
+      <div><h3>Pages</h3><p><a href="services.html">Services</a></p><p><a href="gallery.html">Gallery</a></p><p><a href="contact.html">Contact</a></p></div>
+      <p class="copy">&copy; Nool Drops &middot; Made by Jenzz</p>
+    </div>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>

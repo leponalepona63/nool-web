@@ -1,35 +1,41 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gallery | Nool Drops</title>
+  <meta name="description" content="Nool Drops gallery of dresses, Aari work and embroidery.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h2>Nool Drops</h2>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="services.html">Services</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <div class="wrap bar">
+      <a class="brand" href="index.html" aria-label="Nool Drops home">
+        <span class="art" data-art="logo"></span>
+        <span><b>Nool Drops</b><small>Stitch &middot; Aari &middot; Embroidery</small></span>
+      </a>
+      <button class="menu" aria-expanded="false" aria-label="Open menu">Menu</button>
+      <nav><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></nav>
+    </div>
   </header>
 
-  <section class="content">
-    <h1>Our Gallery</h1>
-    <p>Explore our stitching and embroidery inspiration.</p>
-    <div class="gallery">
-      <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80" alt="Traditional outfit">
-      <img src="https://images.unsplash.com/photo-1583391733956-6c78276477e5?auto=format&fit=crop&w=600&q=80" alt="Fashion design">
-      <img src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=600&q=80" alt="Clothing inspiration">
+  <div class="page-title"><div class="wrap"><h1>Our Gallery</h1><p>Sketches of the designs we love to stitch.</p></div></div>
+  <section><div class="wrap">
+    <div class="chips"><button data-f="all" class="on">All</button><button data-f="women" class="">Women</button><button data-f="baby" class="">Baby</button><button data-f="aari" class="">Aari work</button><button data-f="emb" class="">Embroidery</button></div>
+    <div class="gallery"><figure data-cat="women"><div class="sketch"><div class="art" data-art="dress"></div></div><figcaption>Party dress<small>Women's stitching</small></figcaption></figure><figure data-cat="baby"><div class="sketch"><div class="art" data-art="frock"></div></div><figcaption>Baby frock<small>Baby clothing</small></figcaption></figure><figure data-cat="women"><div class="sketch"><div class="art" data-art="kurti"></div></div><figcaption>Everyday kurti<small>Women's stitching</small></figcaption></figure><figure data-cat="aari"><div class="sketch"><div class="art" data-art="blouse"></div></div><figcaption>Aari blouse<small>Aari work</small></figcaption></figure><figure data-cat="women"><div class="sketch"><div class="art" data-art="lehenga"></div></div><figcaption>Festive lehenga<small>Custom stitching</small></figcaption></figure><figure data-cat="baby"><div class="sketch"><div class="art" data-art="romper"></div></div><figcaption>Baby romper<small>Baby clothing</small></figcaption></figure><figure data-cat="emb"><div class="sketch"><div class="art" data-art="hoop"></div></div><figcaption>Embroidery hoop<small>Embroidery</small></figcaption></figure><figure data-cat="emb"><div class="sketch"><div class="art" data-art="spool"></div></div><figcaption>Thread &amp; needle work<small>Embroidery</small></figcaption></figure></div>
+    <p class="center" style="margin-top:32px">Like a design? <a href="https://wa.me/918610416199" target="_blank" rel="noopener"><b>Send us the photo on WhatsApp</b></a>.</p>
+  </div></section>
+  <footer>
+    <div class="wrap">
+      <div><h3>Nool Drops</h3><p>Boutique for women's clothing and baby outfits. Every stitch tells a story.</p></div>
+      <div><h3>Visit &amp; call</h3><p>Open daily, 10 AM &ndash; 6 PM</p><p>Call: <a href="tel:+918610416199">8610416199</a></p><p><a href="mailto:leponalepona63@gmail.com">leponalepona63@gmail.com</a></p></div>
+      <div><h3>Pages</h3><p><a href="services.html">Services</a></p><p><a href="gallery.html">Gallery</a></p><p><a href="contact.html">Contact</a></p></div>
+      <p class="copy">&copy; Nool Drops &middot; Made by Jenzz</p>
     </div>
-  </section>
-
-  <footer><p>Nool Drops | Made by Jenzz</p></footer>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
